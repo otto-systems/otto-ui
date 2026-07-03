@@ -8,11 +8,17 @@
   "releasePrep": "completed",
   "commit": {
     "status": "committed",
-    "hash": "43f209cab697d8ded686de5dc745dc00426fd898",
-    "message": "chore(release): prepare 0.2.0 gitops release"
+    "hash": "ae422e237fbdbd565e8a601ceed5ef81a0bc954d",
+    "message": "chore(gitops): record 0.2.0 sync metadata"
   },
   "push": {
-    "status": "pending"
+    "status": "pushed"
   },
-  "updatedAt": "2026-07-03T15:19:11.696Z"
+  "updatedAt": "2026-07-03T15:19:39.157Z",
+  "releaseVersion": "0.2.0",
+  "releaseMetadata": {
+    "channel": "stable",
+    "updateManifest": "manifests/release-0.2.0.json",
+    "latestManifest": "manifests/latest.json"
+  }
 }
