@@ -1,6 +1,6 @@
 {
   "repo": "otto-ui",
-  "syncedAt": "2026-08-01T00:00:00.000Z",
+  "syncedAt": "2026-08-02T00:30:00.000Z",
   "targetVersion": "0.2.1",
   "manifestConsistency": "validated",
   "schemaConsistency": "validated",
@@ -8,13 +8,13 @@
   "releasePrep": "completed",
   "commit": {
     "status": "committed",
-    "hash": "790593b876e213103d32d5929666e057c1ccbf50",
-    "message": "release 0.2.1 metadata aligned to current HEAD"
+    "hash": "76ac29f657aeb7be97ae866587d0370eeb9dea7d",
+    "message": "fix: use ESM import for vite react plugin"
   },
   "push": {
     "status": "pushed"
   },
-  "updatedAt": "2026-08-01T00:00:00.000Z",
+  "updatedAt": "2026-08-02T00:30:00.000Z",
   "releaseVersion": "0.2.1",
   "releaseMetadata": {
     "channel": "stable",
@@ -24,7 +24,7 @@
   "validation": {
     "typescriptNoEmit": "pass"
   },
-  "syncStage": "cross_platform_installer_go_sync",
+  "syncStage": "vitest_esm_config_sync",
   "releaseTag": "v0.2.1",
   "tags": {
     "status": "pushed",
@@ -36,7 +36,7 @@
     "url": "https://github.com/otto-systems/otto-ui/releases/tag/v0.2.1"
   },
   "latestSync": {
-    "summary": "workspace synchronization completed alongside installer factory readiness",
-    "date": "2026-08-01T00:00:00.000Z"
+    "summary": "renderer Vite config converted to ESM import to unblock Vitest config loading",
+    "date": "2026-08-02T00:30:00.000Z"
   }
 }
