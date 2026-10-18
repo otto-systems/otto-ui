@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0.0",
+  "contractId": "maestro-otto-ui-contract",
+  "version": "1.0.0",
+  "runtime": "maestro",
+  "entryPageId": "maestro.install-status",
+  "source": {
+    "navigation": "ui/navigation/maestro-panels.json",
+    "nodeGraphs": "ui/nodes/maestro-node-graphs.json",
+    "settings": "ui/settings/maestro-ui-settings.json",
+    "featureCatalog": "otto/manifests/maestro-feature-catalog.json"
+  },
+  "pages": [
+    {
+      "id": "maestro.install-status",
+      "label": "Install Status",
+      "route": "/maestro/install-status",
+      "panel": "install-status"
+    },
+    {
+      "id": "maestro.workflow-builder",
+      "label": "Workflow Builder",
+      "route": "/maestro/workflow-builder",
+      "panel": "workflow-builder"
+    },
+    {
+      "id": "maestro.runtime-status",
+      "label": "Runtime Status",
+      "route": "/maestro/runtime-status",
+      "panel": "runtime-status"
+    },
+    {
+      "id": "maestro.runtime-monitor",
+      "label": "Runtime Monitor",
+      "route": "/maestro/runtime-monitor",
+      "panel": "runtime-monitor"
+    },
+    {
+      "id": "maestro.registry-browser",
+      "label": "Registry Browser",
+      "route": "/maestro/registry-browser",
+      "panel": "registry-browser"
+    },
+    {
+      "id": "maestro.node-graph",
+      "label": "Node Graph",
+      "route": "/maestro/node-graph",
+      "panel": "node-graph"
+    },
+    {
+      "id": "maestro.execution-timeline",
+      "label": "Execution Timeline",
+      "route": "/maestro/execution-timeline",
+      "panel": "execution-timeline"
+    },
+    {
+      "id": "maestro.diagnostics",
+      "label": "Diagnostics",
+      "route": "/maestro/diagnostics",
+      "panel": "diagnostics"
+    },
+    {
+      "id": "maestro.logs",
+      "label": "Logs",
+      "route": "/maestro/logs",
+      "panel": "logs"
+    },
+    {
+      "id": "maestro.telemetry",
+      "label": "Telemetry",
+      "route": "/maestro/telemetry",
+      "panel": "telemetry"
+    }
+  ]
+}
